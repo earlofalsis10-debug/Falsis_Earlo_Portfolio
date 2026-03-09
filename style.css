@@ -1,0 +1,90 @@
+{
+margin: 2;
+padding: 2;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+
+body{
+
+background-color: lightblue;
+background : linear=gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('school background.jpg');
+background-size; cover;
+background-position; center;
+height: 100vh;
+color: pink;
+}
+
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 25px 60px;
+}
+
+.logo {
+font-size: 22px;
+font-weight: bold;
+}
+
+
+
+nav a{
+text-decoration; white;
+color: white;
+border: 1px solid white;
+padding: 8px 15px;
+margin-left: 8px;
+font-size: 12px;
+}
+
+nav a:hover {
+background: #c27be2;
+color: black;
+}
+
+
+
+.hero {
+height:80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+
+.hero h1{
+font-size: 42px;
+letter-spacing: 2px;
+}
+
+.hero span{
+
+color: #c27be2;
+}
+
+
+.buttons {
+margin-top: 20px;
+}
+
+.btn {
+text-decoration: none;
+color: white;
+border: 1px solid white;
+padding: 10px 22px;
+margin: 5px;
+display: inline-block;
+font-size: 12px;
+}
+
+.blue{
+background: #c27be2;
+border: none;
+}
+
+
+
